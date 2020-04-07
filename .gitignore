@@ -1,0 +1,33 @@
+node_modules/
+.DS_Store
+
+
+
+
+
+Davidosky@DAVIDOSKY MINGW64 ~/Desktop/chatapp (master)
+$ git remote add origin git@github.com:Davidosky007/Chatty-App.git
+
+Davidosky@DAVIDOSKY MINGW64 ~/Desktop/chatapp (master)
+$ git remote add origin git@github.com:Davidosky007/Chatty-App.git
+fatal: remote origin already exists.
+
+Davidosky@DAVIDOSKY MINGW64 ~/Desktop/chatapp (master)
+$ git push -u origin master
+The authenticity of host 'github.com (140.82.118.4)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Davidosky@DAVIDOSKY MINGW64 ~/Desktop/chatapp (master)
+$ git push -u origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
